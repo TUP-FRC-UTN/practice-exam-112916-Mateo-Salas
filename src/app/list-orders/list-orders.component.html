@@ -1,1 +1,14 @@
-<p>list-orders works!</p>
+@if (1> 0) {
+    @for (order of listOrders; track $index) {
+        <div>
+            <h2>Order #{{ $index + 1 }}</h2>
+            <p>Code: {{order.orderCode}}</p>
+            <p>Customer: {{ order.customerName }}</p>
+            <p>Order Date: {{ order.timestamp }}</p>
+            <p>Total: {{ order.total }}</p>
+            <p>Items:</p>
+            
+        </div>
+        <hr>
+    }
+}

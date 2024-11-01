@@ -1,4 +1,4 @@
-export interface Orders {
+export interface Order {
     id:           string;
     customerName: string;
     email:        string;

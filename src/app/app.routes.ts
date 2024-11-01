@@ -9,5 +9,5 @@ export const routes: Routes = [{
     path:'create-order', component: CreateOrderComponent
 },
 {
-    path:'', component:CreateOrderComponent
+    path:'', component:ListOrdersComponent
 }];
